@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+}
+.form{
+    width: 250px;
+    height: 340px;
+    color: black;
+    background: linear-gradient(to top, rgba(221, 216, 216, 0.8)50%,rgba(221, 216, 216, 0.8)50%);
+    position: absolute;
+    top:48%;
+    left:72%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 45px 35px;
+}
+.form h1{
+    width: 220px;
+    text-align: center;
+    padding-left: 11px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.form input{
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:black;
+    font-size: 12px;
+    letter-spacing: 1px;
+    outline: none;
+}
+.form input :focus{
+    outline: none;
+
+}
+::placeholder{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    font-size: 15px;
+    padding: 8px 15px;
+   background-color: rgb(70, 142, 237);
+   width: 100%;
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btnn :hover{
+    background-color: rgb(21, 9, 236);
+    padding: 8px 102px;
+    width: 100%;
+    margin-left: -35px;
+    margin-right: -35px;
+    border-radius: 8px;
+}
+.btnn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 112px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+  }
+  .hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 112px;
+    background:black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 1px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(3, 3, 144);
+    
+}
+.link1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+}
+.link1 a{
+    text-decoration: none;
+    color: rgb(3, 3, 144);
+}
+.link2{
+    width: 250px;
+    height: 10px;
+    color: black;
+    background: linear-gradient(to top, rgba(221, 216, 216, 0.8)50%,rgba(221, 216, 216, 0.8)50%);
+    position: absolute;
+    top:100%;
+    left:72%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 20px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: -10px;
+    text-align: center;
+}
+.link2 a{
+    text-decoration: none;
+    color: rgb(3, 3, 144);
+}
+.container{
+    width: 65vmin;
+    height: 100vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 30%;
+    overflow: hidden;
+    border: 20px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+.wrapper{
+    width:100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+img{
+    width:100%;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.app{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 105%;
+    left: 69%;
+    color: rgb(7, 2, 2);
+}
+.btnn1{
+    padding: 8px 15px;
+   width: 15%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 112%;
+    left: 55%;
+}
+.btnn2{
+    padding: 8px 15px;
+   width: 15%;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 112%;
+    left: 75%;
+}
+
+.footerr{
+   
+    margin-top: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 60%;
+    padding-left: 200px;
+}
+
+.linkk a{
+    text-decoration: none;
+    color: rgb(3, 3, 144);
+   
+}
